@@ -1,0 +1,80 @@
+new:168:14:void* operator new(std::size_t, void*)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+kocherga.hpp:88:10:void kocherga::CRC64::add(const void*, std::size_t)	40	static
+kocherga.hpp:110:19:uint64_t kocherga::CRC64::get() const	16	static
+kocherga.hpp:205:18:virtual void kocherga::IPlatform::lockMutex()	16	static
+kocherga.hpp:206:18:virtual void kocherga::IPlatform::unlockMutex()	16	static
+kocherga.hpp:301:18:kocherga::BootloaderController::MutexLocker::MutexLocker(kocherga::IPlatform&)	16	static
+kocherga.hpp:302:9:kocherga::BootloaderController::MutexLocker::~MutexLocker()	16	static
+range_access.h:58:5:begin()) std::begin(const _Container&) [with _Container = std::array<unsigned char, 8>]	16	static
+array:130:7:constexpr const value_type* std::array<_Tp, _Nm>::begin() const [with _Tp = unsigned char; unsigned int _Nm = 8]	16	static
+array:59:7:static constexpr _Tp* std::__array_traits<_Tp, _Nm>::_S_ptr(const _Tp (&)[_Nm]) [with _Tp = unsigned char; unsigned int _Nm = 8]	16	static
+array:238:7:constexpr const value_type* std::array<_Tp, _Nm>::data() const [with _Tp = unsigned char; unsigned int _Nm = 8]	16	static
+kocherga.hpp:382:14:bool kocherga::BootloaderController::AppDescriptor::isValid(uint32_t) const	32	static
+range_access.h:87:5:constexpr _Tp* std::begin(_Tp (&)[_Nm]) [with _Tp = unsigned char; unsigned int _Nm = 8]	16	static
+range_access.h:97:5:constexpr _Tp* std::end(_Tp (&)[_Nm]) [with _Tp = unsigned char; unsigned int _Nm = 8]	16	static
+optional:478:17:constexpr std::optional<_Tp>::optional() [with _Tp = kocherga::BootloaderController::AppDescriptor]	16	static
+kocherga.hpp:395:34:std::optional<kocherga::BootloaderController::AppDescriptor> kocherga::BootloaderController::locateAppDescriptor()	136	static
+optional:394:7:constexpr const _Tp& std::_Optional_base<_Tp>::_M_get() const [with _Tp = kocherga::BootloaderController::AppDescriptor]	16	static
+optional:692:7:constexpr const _Tp* std::optional<_Tp>::operator->() const [with _Tp = kocherga::BootloaderController::AppDescriptor]	16	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = const kocherga::BootloaderController::AppDescriptor]	16	static
+kocherga.hpp:491:10:void kocherga::BootloaderController::verifyAppAndUpdateState(kocherga::State)	72	static
+optional:478:17:constexpr std::optional<_Tp>::optional() [with _Tp = kocherga::AppInfo]	16	static
+kocherga.hpp:528:5:kocherga::BootloaderController::BootloaderController(kocherga::IPlatform&, kocherga::IROMBackend&, uint32_t, std::chrono::microseconds)	40	static
+chrono:325:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = int; <template-parameter-2-2> = void; _Rep = long long int; _Period = std::ratio<1, 1000000>]	16	static
+main.cpp:127:10:virtual void STM32Platform::lockMutex()	16	static
+main.cpp:128:10:virtual void STM32Platform::unlockMutex()	16	static
+main.cpp:130:31:virtual std::chrono::microseconds STM32Platform::getMonotonicUptime() const	24	static
+main.cpp:148:18:virtual int16_t STM32IROMBackend::beginUpgrade()	16	static
+main.cpp:156:18:virtual int16_t STM32IROMBackend::write(std::size_t, const void*, uint16_t)	72	static
+main.cpp:181:18:virtual int16_t STM32IROMBackend::endUpgrade(bool)	16	static
+main.cpp:189:18:virtual int16_t STM32IROMBackend::read(std::size_t, void*, uint16_t) const	32	static
+kocherga.hpp:196:13:kocherga::IPlatform::~IPlatform()	16	static
+kocherga.hpp:196:13:virtual kocherga::IPlatform::~IPlatform()	16	static
+kocherga.hpp:230:13:kocherga::IROMBackend::~IROMBackend()	16	static
+kocherga.hpp:230:13:virtual kocherga::IROMBackend::~IROMBackend()	16	static
+main.cpp:198:5:int main()	1144	static
+main.cpp:243:6:void SystemClock_Config()	104	static
+main.cpp:294:13:void MX_I2C1_Init()	8	static
+main.cpp:328:13:void MX_I2S3_Init()	8	static
+main.cpp:361:13:void MX_SPI1_Init()	8	static
+main.cpp:394:13:void MX_UART2_Init()	8	static
+main.cpp:415:13:void MX_GPIO_Init()	56	static
+main.cpp:508:6:void Error_Handler()	4	static
+range_access.h:78:5:end()) std::end(const _Container&) [with _Container = std::array<unsigned char, 8>]	16	static
+stl_algobase.h:1041:5:bool std::equal(_II1, _II1, _II2) [with _II1 = const unsigned char*; _II2 = const unsigned char*]	32	static
+stl_algobase.h:1041:5:bool std::equal(_II1, _II1, _II2) [with _II1 = unsigned char*; _II2 = const unsigned char*]	32	static
+array:234:7:constexpr std::array<_Tp, _Nm>::value_type* std::array<_Tp, _Nm>::data() [with _Tp = unsigned char; unsigned int _Nm = 1024]	16	static
+array:175:7:constexpr std::array<_Tp, _Nm>::size_type std::array<_Tp, _Nm>::size() const [with _Tp = unsigned char; unsigned int _Nm = 1024]	16	static
+stl_algobase.h:195:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = kocherga::BootloaderController::AppDescriptor&]	16	static
+optional:491:17:constexpr std::optional<_Tp>::optional(_Up&&) [with _Up = kocherga::BootloaderController::AppDescriptor&; typename std::enable_if<std::__and_<std::__not_<std::is_same<std::optional<_Tp>, typename std::decay<_U1>::type> >, std::__not_<std::is_same<std::in_place_t, typename std::decay<_U1>::type> >, std::is_constructible<_Tp, _Up&&>, std::is_convertible<_Up&&, _Tp> >::value, bool>::type <anonymous> = 1; _Tp = kocherga::BootloaderController::AppDescriptor]	24	static
+optional:110:17:constexpr std::_Optional_payload<_Tp, <anonymous>, <anonymous> >::_Optional_payload() [with _Tp = kocherga::BootloaderController::AppDescriptor; bool <anonymous> = true; bool <anonymous> = true]	16	static
+optional:313:17:constexpr std::_Optional_base<_Tp>::_Optional_base() [with _Tp = kocherga::BootloaderController::AppDescriptor]	16	static
+optional:715:26:constexpr std::optional<_Tp>::operator bool() const [with _Tp = kocherga::BootloaderController::AppDescriptor]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const kocherga::AppInfo&]	16	static
+optional:586:9:std::enable_if_t<std::__and_<std::__not_<std::is_same<std::optional<_Tp>, typename std::decay<_U1>::type> >, std::is_constructible<_Tp, _Up>, std::__not_<std::__and_<std::is_scalar<_Tp>, std::is_same<_Tp, typename std::decay<_U1>::type> > >, std::is_assignable<_Tp&, _Up> >::value, std::optional<_Tp>&> std::optional<_Tp>::operator=(_Up&&) [with _Up = const kocherga::AppInfo&; _Tp = kocherga::AppInfo]	24	static
+optional:782:12:void std::optional<_Tp>::reset() [with _Tp = kocherga::AppInfo]	16	static
+optional:110:17:constexpr std::_Optional_payload<_Tp, <anonymous>, <anonymous> >::_Optional_payload() [with _Tp = kocherga::AppInfo; bool <anonymous> = true; bool <anonymous> = true]	16	static
+optional:313:17:constexpr std::_Optional_base<_Tp>::_Optional_base() [with _Tp = kocherga::AppInfo]	16	static
+chrono:325:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = long unsigned int; <template-parameter-2-2> = void; _Rep = long long int; _Period = std::ratio<1, 1000000>]	16	static
+array:138:7:constexpr const value_type* std::array<_Tp, _Nm>::end() const [with _Tp = unsigned char; unsigned int _Nm = 8]	16	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = const unsigned char*]	16	static
+stl_algobase.h:821:5:bool std::__equal_aux(_II1, _II1, _II2) [with _II1 = const unsigned char*; _II2 = const unsigned char*]	32	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = unsigned char*]	16	static
+stl_algobase.h:821:5:bool std::__equal_aux(_II1, _II1, _II2) [with _II1 = unsigned char*; _II2 = const unsigned char*]	32	static
+array:59:7:static constexpr _Tp* std::__array_traits<_Tp, _Nm>::_S_ptr(const _Tp (&)[_Nm]) [with _Tp = unsigned char; unsigned int _Nm = 1024]	16	static
+optional:114:17:) [with _Args = {kocherga::BootloaderController::AppDescriptor&}; _Tp = kocherga::BootloaderController::AppDescriptor; bool <anonymous> = true; bool <anonymous> = true]	32	static
+optional:322:28:>, bool>::type <anonymous> = 0; _Tp = kocherga::BootloaderController::AppDescriptor]	32	static
+optional:385:22:constexpr bool std::_Optional_base<_Tp>::_M_is_engaged() const [with _Tp = kocherga::BootloaderController::AppDescriptor]	16	static
+optional:385:22:constexpr bool std::_Optional_base<_Tp>::_M_is_engaged() const [with _Tp = kocherga::AppInfo]	16	static
+optional:390:7:constexpr _Tp& std::_Optional_base<_Tp>::_M_get() [with _Tp = kocherga::AppInfo]	16	static
+optional:401:9:) [with _Args = {const kocherga::AppInfo&}; _Tp = kocherga::AppInfo]	24	static
+optional:418:7:void std::_Optional_base<_Tp>::_M_reset() [with _Tp = kocherga::AppInfo]	16	static
+stl_algobase.h:811:9:static bool std::__equal<true>::equal(const _Tp*, const _Tp*, const _Tp*) [with _Tp = unsigned char]	32	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = kocherga::AppInfo]	16	static
+optional:410:7:void std::_Optional_base<_Tp>::_M_destruct() [with _Tp = kocherga::AppInfo]	16	static
+main.cpp:143:5:STM32IROMBackend::~STM32IROMBackend()	16	static
+main.cpp:143:5:virtual STM32IROMBackend::~STM32IROMBackend()	16	static
+main.cpp:135:5:STM32Platform::~STM32Platform()	16	static
+main.cpp:135:5:virtual STM32Platform::~STM32Platform()	16	static
